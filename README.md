@@ -11,13 +11,13 @@ $ npm i micromq-pug-render
 ```
 
 ## Usage
-```
+```js
 res.render('index', { title: 'My Title' });
 ```
 
 ## Examples
 
-```
+```js
 const MicroMQ = require('micromq');
 const pug_render = require('micromq-pug-render');
 
@@ -27,7 +27,8 @@ const path_views = __dirname + '/views/';
 
 mq.use(pug_render({ path_views: path_views }));
 
-...
+//...
+
 mq.all('/', (req,res,next) => {
   res.render('index', { title: 'My Title' });
 });
