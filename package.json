@@ -1,0 +1,29 @@
+{
+  "name": "micromq-pug-render",
+  "version": "0.5.0",
+  "description": "library add res.render('view', data) function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micromq",
+    "rabbitmq",
+    "amqp",
+    "pug",
+    "jade",
+    "render"
+  ],
+  "author": {
+    "name": "mdimai666",
+    "url": "https://github.com/mdimai666"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mdimai666/micromq-pug-render"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
+}
