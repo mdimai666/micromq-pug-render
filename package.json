@@ -19,8 +19,8 @@
     "url": "https://github.com/mdimai666"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mdimai666/micromq-pug-render"
+    "type": "git",
+    "url": "https://github.com/mdimai666/micromq-pug-render"
   },
   "license": "MIT",
   "dependencies": {
