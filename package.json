@@ -1,6 +1,6 @@
 {
   "name": "micromq-pug-render",
-  "version": "0.5.0",
+  "version": "0.6.2",
   "description": "library add res.render('view', data) function",
   "main": "index.js",
   "scripts": {
